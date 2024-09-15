@@ -6,10 +6,12 @@ fn factorial(num: u64) -> u64 {
     // Do not use:
     // - early returns (using the `return` keyword explicitly)
     // Try not to use:
-    // - imperative style loops (for/while)
+    // - imperative style loops (for/)
     // - additional variables
     // For an extra challenge, don't use:
     // - recursion
+
+    (1..num + 1).reduce(|acc, e| acc * e).unwrap_or(1)
 }
 
 fn main() {
