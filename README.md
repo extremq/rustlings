@@ -1,2 +1,4 @@
 # Rustlings
-Search on any web browser of your choice for Rustlings and you will get your info
+These are my solutions for the Rustlings repo.
+
+`exercises/` contains my write-ups, while `solutions/` contains the official write-ups.
